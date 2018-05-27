@@ -26,13 +26,13 @@ def readPotenciometro(gpio):
 	
 while True:
 	with GPIO(pins) as gpio:
-		value = readPotenciometro(gpio)
-		if value > 500:
-			gpio.digital_write(LED, GPIO.HIGH)
+		value = readPotenciometro(gpio) # le o valor do potenciometro e coloca na variavel
+		if value > 500: 
+			gpio.digital_write(LED, GPIO.HIGH) # liga o led para valores maiores que 500
 		else:
-			gpio.digital_write(LED, GPIO.LOW)		
+			gpio.digital_write(LED, GPIO.LOW) # desliga o LED		
 
-		time.sleep(0.5)
+		time.sleep(0.5) #tempo de espera para proximo loop
 
 
 
