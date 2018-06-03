@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red209\green233\blue245;\red0\green27\blue242;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14340\viewh10600\viewkind0
+\deftab720
+\pard\pardeftab720\sl320\sa140\qj\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crie uma aplica\'e7\'e3o utilizando ao menos 1 sensor anal\'f3gico que possa ser usada em uma SmartHome.\'a0\
+
+\i \cf4 \strokec4 Descreva todos os detalhes necess\'e1rios para a execu\'e7\'e3o da aplica\'e7\'e3o como se fosse um tutorial atrav\'e9s de um arquivo txt ou DOC.
+\i0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\b Atividade 4: sensor anal\'f3gico para smart home\
+
+\b0 \
+passo 01 - conecte fisicamente o sensor de temperatura na porta ADC2 da Linker Mezzanine;\
+\
+passo 02 - posicione a placa e o sensor em um local que queira captar as informa\'e7\'f5es de temperatura que queira captar na sua casa;\
+\
+passo 03 - abra o terminal no Linaro para executar a aplica\'e7\'e3o\
+\
+passo 04 - digite o comando: 
+\i\b cd /usr/aplicacoes/iot/modulo4/
+\i0\b0 \
+\
+passo 05 - execute a aplica\'e7\'e3o: 
+\i\b sudo python readTemperature.py\
+\
+
+\i0\b0 passo 06 - monitore os resultados coletados e poss\'edveis alertas\
+}
