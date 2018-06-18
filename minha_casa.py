@@ -8,7 +8,7 @@ TEMP = GPIO.gpio_id('GPIO_CS')
 RELE = GPIO.gpio_id('GPIO_A')
 LED = GPIO.gpio_id('GPIO_C')
 
-pins = ((TEMP, 'out'), (RELE, 'out'), (LED, 'out'),)
+pins = ((TEMP, 'in'), (RELE, 'out'), (LED, 'out'),)
 
 spi = spidev.SpiDev()
 spi.open(0,0)
